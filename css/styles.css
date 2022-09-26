@@ -1,14 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed);
+
 body{
     margin: 0%;
+    color: #797979;
+    background: #ffffff;
+    font-family: 'Fira Sans Condensed';
+}
+.container-fluid {
+  max-width: 1366px;
 }
 ul{
     margin: 0 auto;
     padding: 0;
     list-style: none;
 }
+
+.navbar {
+  position: relative;
+  transition: .5s;
+  z-index: 999;
+}
+/*
 nav{
     text-align: center;
 }
+*/
+
 .list-inline {
 	list-style: none;
 	margin-left: 0;
@@ -18,7 +35,7 @@ nav{
 	display: inline-block;
     padding-right: 12.5%;
 }
-/* Formulario Contacto. */
+/* Formulario Contacto.
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
   body{
     background-color: #F6C12E;
@@ -109,4 +126,4 @@ nav{
     z-index:-1;
     
   }
-/* Formulario Contacto */
+ Formulario Contacto */
