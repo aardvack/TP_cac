@@ -73,6 +73,7 @@ h4{
 .header__logo{
   margin: 1rem 0;
   background-color: var(--primario);
+  width: 100px;
 }
 
 .contenedor{
