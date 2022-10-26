@@ -4,7 +4,6 @@
   --primario:#F6C12E;
   --secundario:#793D52;
   --fuentePrincipal: 'Oswald', sans-serif;
-  
 }
 
 html {
@@ -95,9 +94,7 @@ h4{
   .navegacion{
       flex-direction: row;
       justify-content: space-evenly;
-  
   }
-  
 }
 
 .navegacion__enlace{
@@ -113,7 +110,6 @@ h4{
   .navegacion__enlace{
       padding: 1rem;
   }
-  
 }
 
 .navegacion__enlace--activo,
@@ -123,8 +119,7 @@ h4{
 
 .banner{
   margin-bottom: 1rem;
-  margin: 2rem;
-  
+  margin: 2rem; 
 }
 
 .footer{
@@ -151,142 +146,9 @@ h4{
   color: var(--blanco);
   display: flex;
   justify-content:center;
-
 }
-
-
-
-
-
-
-
-/* 
-body{
-    margin: 0%;
-}
-ul{
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-}
-nav{
-    text-align: center;
-}
-.list-inline {
-	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
-}
-.list-inline > li {
-	display: inline-block;
-    padding-right: 12.5%;
-}*/
-
-
-/* Formulario Contacto.*/
-/*
-  @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
-  body{
-    background-color: #F6C12E;
-    margin:0;
-    padding:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height: 100vh;
-    
-  }
-  section{
-    font-family: 'Baloo Tamma 2', cursive;
-  
-    background-color:#EFF6F8;
-    width:240px;
-    height:320px;
-    border: 4px solid #793D52;
-    border-radius: 7px;
-    text-align:center;
-    
-  }
-  h1{
-    text-transform: uppercase;
-    color:#793D52;
-    margin-bottom: 10px;
-    letter-spacing: -.9px;
-  }
-  .input{
-    width:175px;
-    border: 3px solid #793D52;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 5px;
-  }
-  .input2{
-    margin-top:15px;
-    width:175px;
-    border: 3px solid #793D52;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 5px;
-  }
-  .textbox{
-    margin-top:15px;
-    height: 50px;
-    width:175px;
-    border: 3px solid #793D52;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 5px;
-  }
-  .enviar{
-    font-size: 1.2em;
-    margin-top:10px;
-    width:90px;
-    height:40px;
-    background-image: linear-gradient(#AEE100, #93C600, #93C600, #93C600,#93C600, #AEE100);
-    border: 3px solid #793D52;
-    border-radius: 5px;
-    color:#FDFEFB;
-      font-family: 'Baloo Tamma 2', cursive;
-  }
-  .limpar{
-    color:#FDFEFB;
-    margin-top:10px;
-    width:90px;
-    height:40px;
-    background-image: linear-gradient(#AEE100, #93C600, #93C600, #93C600,#93C600, #AEE100);
-    border: 3px solid #793D52;
-    border-radius: 5px;
-      font-family: 'Baloo Tamma 2', cursive;
-    font-size: 1.2em;
-    
-  }
-  button:hover{
-      background-image: linear-gradient(#93C600, #AEE100, #AEE100, #AEE100, #AEE100, #93C600);
-  }
-  span{
-
-    width:20px;
-    height:320px;
-    background-color:#B2B2B2;
-    margin-top:0px;
-    margin-left: -10px;
-    border: 4px solid #793D52;
-    border-radius: 7px;
-    z-index:-1;
-    
-  } */
 
 /* Formulario Contacto */
-
-
-
-
-
-
-
-
-
-
 
 /**Grid**/
 .grid{
@@ -306,7 +168,6 @@ nav{
 .producto{
   background-color: var(--negro);
   padding: 1rem;
-
 }
 
 .producto__imagen{
@@ -328,3 +189,4 @@ nav{
   margin: 1rem 0;
   text-align: center;
 }
+
