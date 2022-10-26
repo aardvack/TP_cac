@@ -6,39 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="icon"   href="css/home.png" type="image/png" />
     <title>Barbería Los Pelos</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index-styles.css">
     <link rel="icon" type="image/x-icon" href="./sources/favicon.ico">
-
 </head>
 <body>
-    <header>
-        <nav> 
-            <ul class="list-inline">
-                <li> 
-                    <h1><a href="index.html">Logo</a></h1>
-                </li>  
-                <li>
-                    <a href="./pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./pages/servicios.html">Servicios</a> 
-                </li>
-                <li>
-                    <a href="./pages/contacto_f.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header><br><br><br>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid saepe ea amet, aut reiciendis voluptatibus perferendis repellat sed molestias provident sapiente magni voluptatem sit dolor asperiores soluta exercitationem facere dolorem vero sequi. Nemo explicabo tempore distinctio maxime vero eum saepe ad nulla necessitatibus aliquam dolor quam animi inventore, totam debitis incidunt amet, ipsum eveniet odit atque! Perferendis, vel ex fuga nostrum quidem, in quo atque eligendi sapiente tempora corporis aperiam consequatur perspiciatis? Magni, necessitatibus mollitia sint, atque autem et tempore quos recusandae nihil ea aut itaque exercitationem perferendis fugiat. Cum dolor repellendus rerum voluptates perspiciatis voluptatem hic maxime quis molestias quia, est, nesciunt a dolores modi illo vero consequatur in nemo aliquid eos architecto iusto earum temporibus. Magnam necessitatibus fugiat unde, voluptate, repellat distinctio odio a facere perferendis possimus, recusandae vel? Minima error et fuga ex quaerat, molestias excepturi velit tempore in ratione voluptates facilis asperiores quo earum praesentium dolorem eum ipsam porro. Accusantium officia rem odio mollitia vitae consequuntur unde iusto porro explicabo voluptate illum incidunt, ullam sunt quae dolor eligendi natus sit. Perspiciatis repudiandae quas dignissimos ducimus deserunt officiis temporibus error dolorem dolores a itaque, est aliquid saepe dicta facere maxime totam nemo odio, cum incidunt sequi placeat! Aut, rem? Accusamus officiis debitis reprehenderit aspernatur doloremque, quis molestias voluptates odio provident amet natus! Sed eligendi vero, distinctio recusandae repudiandae odio possimus veniam voluptates, tempore voluptatem quae quod maiores tempora voluptas facilis, non enim ducimus asperiores necessitatibus. Quasi at, voluptatibus sunt, rem est ut voluptatum illum doloribus officiis unde dicta perspiciatis quos eius hic quibusdam assumenda neque eligendi doloremque non. Ut temporibus, eligendi dolorem, nobis omnis unde laborum itaque cumque libero illum expedita sed eos quos doloribus incidunt inventore! Quas debitis dolorum amet eum praesentium, temporibus possimus facilis est quos assumenda. Saepe similique quos adipisci, pariatur veniam sed, dignissimos at, amet fuga excepturi cupiditate provident impedit fugiat itaque delectus consequatur atque maxime neque? Consectetur quia nihil iusto nesciunt doloremque, aut fuga! Quod, minus repudiandae veritatis temporibus distinctio facere voluptas deleniti blanditiis ducimus aperiam necessitatibus? Nobis, quo rem enim atque quae iusto perspiciatis totam earum eius velit natus officiis aut quibusdam, aliquid ullam, nesciunt magnam? Deleniti eum nobis, labore maiores error unde officiis laborum fugit eveniet doloremque. Debitis accusamus quod nemo voluptate quisquam delectus sit impedit quo ullam, perferendis corporis repudiandae nesciunt quae adipisci neque temporibus nisi, iure voluptates, earum ex! Placeat quos quisquam provident temporibus, veniam earum obcaecati, quia inventore ratione dolorem harum doloribus animi debitis quam omnis laboriosam quasi sed dolorum quas fuga eligendi mollitia nulla assumenda! Modi, tempore ipsum suscipit veniam nulla magni numquam! Voluptates necessitatibus dicta consequatur labore? Rerum, voluptatem porro reprehenderit deleniti ea minus hic sequi? Ducimus temporibus molestias, excepturi voluptatum dolores perspiciatis possimus nostrum voluptatibus aliquam maxime aspernatur. Reprehenderit, illum officiis accusantium at blanditiis facilis aliquid voluptatibus, optio nemo minima itaque cumque consequuntur earum, delectus iste. Ipsa alias nam quasi illo tempora quae, sapiente maxime adipisci? Mollitia amet incidunt nisi a placeat blanditiis ipsa ullam facilis commodi odio, doloribus voluptate nihil corporis dignissimos.</p>
-
-    <br><br>
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__logo" src="../sources/Logo.png" alt="Logotipo">
+        </a>
+    </header> 
+        <div class="nav__background">
+            <nav class="navegacion contenedor">
+                <a class="navegacion__enlace" href="../index.html">Home</a>
+                <a class="navegacion__enlace" href="./pages/servicios.html">Servicios</a>
+                <a class="navegacion__enlace navegacion__enlace--activo" href="./pages/productos.html">Productos</a>
+                <a class="navegacion__enlace" href="./pages/contacto_f.html">Contacto</a>
+            </nav>
+        </div>
+    <div id="carrusel-contenido">
+        <div id="carrusel-caja">
+            <div class="carrusel-elemento">
+                <img class="imagenes" src="./sources/local.png" alt="local">
+            </div>
+            <div class="carrusel-elemento">
+                <img class="imagenes" src="./sources/sillas.png" alt="sillas">
+            </div>
+            <div class="carrusel-elemento">
+                <img class="imagenes" src="./sources/corte.png" alt="corte">
+            </div>
+        </div>
+    </div>
+    <aside>
+        <img src="./sources/scissors.png" alt="scissors" class="tijeras">
+    </aside>
+    <section class="section-index">
+        <h1 class="info">Sobre Nosotros</h1>
+        <p>
+            Barbería Los Pelos abrió sus puertas el 30 de Junio del 2015.
+            <br><br>
+            El concepto desde aquel entonces hasta ahora, ha ido migrando año tras año, lo cual hace que hoy en dia se destaque como peluquería y barbería clásica tradicional de los años 20.
+            <br><br>
+            Se caracteriza por sus afeitados clásicos a navaja con toallas calientes y frias como asi también por sus arreglos de barbas , cortes de estilo europeo y estar siempre a la vanguardia sobre las nuevas tendencias masculinas.
+            <br><br>
+            Barbería Los Pelos no es simplemente un corte de cabello.    
+        </p>
+    </section>
     <footer>
-    <p>footer aqui..</p>
+        <div class="copyright">
+            <p>Copyright 2021 - Todos los derechos reservados</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <br>
+            <a href="https://twitter.com/">Twitter</a>
+            <br>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
     </footer>
-
-
 </body>
-
 </html>
