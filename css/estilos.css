@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&display=swap');
 
 
 .wrapper {
@@ -208,4 +209,9 @@
   figure:hover > vertexto {
     display:block;
     transition: all .5s;
+  }
+
+  form {
+    font-family: 'Quattrocento';
+    font-size: 15px;
   }
